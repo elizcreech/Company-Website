@@ -1,0 +1,7 @@
+img name: rij1
+img info:
+Tada no Mitsunaka, Yashima Gakutei, c. 1822
+colour woodcut, h 200mm ¡Á w 184mm More details
+link: https://www.rijksmuseum.nl/en/collection/RP-P-1991-464 
+
+img name: rij2
