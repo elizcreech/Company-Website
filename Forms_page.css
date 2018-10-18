@@ -1,0 +1,9 @@
+/* Style Seet for DCinterest site */
+
+.member_register{
+    margin: 40px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-content: space-between; */
+}
