@@ -42,8 +42,22 @@ body {
   /* The typewriter cursor effect */
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: #dc3545}
+    50% { border-color: #15120B}
   }
+
+  /* style for the divider */
+.divider {
+  background-image: url(../img/raw/fire-gif.gif);
+  background-repeat: repeat-x;
+  width: 100%;
+  padding: 100px;
+}
+
+.divider2 {
+  background-color: #444439;
+  padding:30px;
+  width: 100%;
+}
 
 /* style of the grids */
 .grid-container {
@@ -61,9 +75,11 @@ body {
 .item1 {
   grid-column: 1 / span 6;
   grid-row: 1 / span 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 
   background-color: #383734;
-
   text-align: left;
   color: #a67f4e;
   min-height: 215 px;
@@ -92,6 +108,14 @@ body {
   grid-column: 9 / span 4;
   grid-row: 1 / span 10;
   background-color:#383734;
+}
+
+.eli .item3 {
+  background-color: white;
+}
+
+.chiza .item3 {
+  background-color: white;
 }
 
 .item4 {
@@ -139,12 +163,14 @@ body {
   margin: 8px;
 }
 
-.item5 {
-  font-size: 16px;
+.item5 p{
+  font-size: 1.14rem;
+  font-style: bold;
   text-align: left;
+  font-family: 'Ubuntu Mono', monospace;
 }
 
 .bgcl {
   background-color: #a67f4e ;
-  font-family: font-family: Segoe Alt W00 Semibold,Segoe UI,Helvetica,sans-serif;
+  font-family: 'Ubuntu Mono', monospace;
 }
