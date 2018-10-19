@@ -26,4 +26,23 @@ Chen Rong (Chinese, first half of the 13th century)
 img name: cr_1
 link: https://blogcache.artron.net/201103/18/395555_1300411588s6aw.png
 
+brown: #a67f4e
+dark grey: #383734
+purple grey light: #e3dcd7
+
+color: #383734;
+font-size: 18px;
+font-size: 1.125rem;
+line-height: 1.38889em;
+font-family: Segoe Alt W00 Light,Segoe UI,Helvetica,sans-serif;
+font-family: Museo Slab W01_100,Helvetica,sans-serif;
+
+    font-size: 12px;
+    font-size: .75rem;
+    line-height: 2.33333em;
+    font-family: Segoe Alt W00 Semibold,Segoe UI,Helvetica,sans-serif;
+    letter-spacing: .4em;
+    text-transform: uppercase;
+}
+
 
