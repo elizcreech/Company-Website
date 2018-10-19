@@ -7,6 +7,22 @@
     justify-content: space-around;
     /* align-content: space-between; */
 }
+
+.signup_image{
+    margin: 40px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.subscribe_image{
+    margin: 40px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+    
 body {
     background-image: url("../img/castle.jpg");
     width: 100%;
