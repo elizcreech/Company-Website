@@ -1,13 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.12/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="blog.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>DragonMasters Blog</title>
+    <title>Dragon Masters Blog</title>
 </head>
 <body>
+<!-- NAV BAR -->
+<!-- Logo & Company Name -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <a class="navbar-brand text-danger font-weight-bold" href="#"><img src="https://mbtskoudsalg.com/images/dragon-logo-png-7.png" width="50px"> DRAGON MASTERS</a>
+
+    <!-- collapses menu when in mobile -->          
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    <!-- Website links               -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link" href="#">BLOG</a>
+                </li>
+            </ul>
+    <!-- Sign Up and Login buttons -->
+            <a class="btn btn-danger mr-3" href="#"><i class="fas fa-dragon"></i> Sign up</a>
+            <a class="btn btn-danger" href="#"><i class="fas fa-dragon"></i> Login</a> 
+        </div>
+    </nav>
+<!-- NAV BAR END -->
+<!-- Hero Image START-->
+    <div class="pimg2">
+        <div class="ptext scale-up-center">
+            <br>Dragon Masters <br> BLOG
+        </div>
+    </div>
+<!-- Hero Image END-->
+    <div class="card-container row justify-content-center very-top-buffer">
+        <div class="card bg-white border-0 col-sm-6" style="max-width: 300px;">
+            <img class="card-img-top" src="raw/cr_artron1.png" alt="Chinese Dragon">
+            <div class="card-body">
+                <h5 class="card-title">Chinese Dragon</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam cum aut excepturi nemo quidem maiores earum aliquid suscipit dolorum doloremque?</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card bg-white border-0 col-sm-6" style="max-width: 300px;">
+            <img class="card-img-top" src="raw/ren_dragon1.jpg" alt="Medieval Dragon">
+            <div class="card-body">
+                <h5 class="card-title">Medieval Dragon</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam cum aut excepturi nemo quidem maiores earum aliquid suscipit dolorum doloremque?</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card bg-white border-0 col-sm-6" style="max-width: 300px;">
+            <img class="card-img-top" src="raw/az_dragon2.jpg" alt="Aztec Dragon">
+            <div class="card-body">
+                <h5 class="card-title">Aztec Dragon</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam cum aut excepturi nemo quidem maiores earum aliquid suscipit dolorum doloremque?</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card bg-white border-0 col-sm-6" style="max-width: 300px;">
+            <img class="card-img-top" src="raw/sea_dragon.jpeg" alt="Sea Dragon">
+            <div class="card-body">
+                <h5 class="card-title">Sea Dragon</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam cum aut excepturi nemo quidem maiores earum aliquid suscipit dolorum doloremque?</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+    </div>
+    <div class="card-container row justify-content-center top-buffer">
+        <div class="card bg-white border-0 col-sm-6" style="max-width: 300px;">
+            <img class="card-img-top" src="raw/ice_dragon.jpg" alt="Ice Dragon">
+            <div class="card-body">
+                <h5 class="card-title">Ice Dragon</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam cum aut excepturi nemo quidem maiores earum aliquid suscipit dolorum doloremque?</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card bg-white border-0 col-sm-6" style="max-width: 300px;">
+            <img class="card-img-top" src="raw/ea_dragon.jpg" alt="Forest Dragon">
+            <div class="card-body">
+                <h5 class="card-title">Forest Dragon</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam cum aut excepturi nemo quidem maiores earum aliquid suscipit dolorum doloremque?</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+            <!-- <img class="card-img" src="raw/ea_dragon.jpg" alt="Forest Dragon">
+            <div class="card-img-overlay">
+                <h5 class="card-title">Forest Dragon</h5>
+            </div> -->
+        </div>
+        <div class="card bg-white border-0 col-sm-6" style="max-width: 300px;">
+            <img class="card-img" src="raw/st_dragon1.jpg" alt="Stone Dragon">
+            <div class="card-img-overlay">
+                <h5 class="card-title">Stone Dragon</h5>
+            </div>
+        </div>
+        <div class="card bg-white border-0 col-sm-6" style="max-width: 300px;">
+            <img class="card-img" src="raw/fr_dragon1.jpg" alt="Fire Dragon">
+            <div class="card-img-overlay">
+                <h5 class="card-title">Fire Dragon</h5>
+            </div>
+        </div>
+    </div>
+<!-- Footer Elements -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 py-5">
+            <div class="d-flex justify-content-center">
     
+                <!-- Facebook -->
+                <a class="fb-ic" href="#">
+                <i class="fab fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+                <!-- Twitter -->
+                <a class="tw-ic" href="#">
+                <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+                <!-- Google +-->
+                <a class="gplus-ic" href="#">
+                <i class="fab fa-google-plus fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+                <!--Linkedin -->
+                <a class="li-ic" href="#">
+                <i class="fab fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+                <!--Instagram-->
+                <a class="ins-ic" href="#">
+                <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+                <!--Pinterest-->
+                <a class="pin-ic" href="#">
+                <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+                </a>
+            </div>
+            </div>
+        </div>
+    </div>
+<!-- Footer Elements End -->
+    
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+        <a href="https://mdbootstrap.com/bootstrap-tutorial/"> DragonMasters.com</a>
+        </div>
+        <!-- Copyright End-->
+    </footer>
+<!-- FOOTER END --> 
 </body>
 </html>
