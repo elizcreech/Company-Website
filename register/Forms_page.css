@@ -7,3 +7,7 @@
     justify-content: space-around;
     /* align-content: space-between; */
 }
+body {
+    background-image: url("../img/castle.jpg");
+    width: 100%;
+}
