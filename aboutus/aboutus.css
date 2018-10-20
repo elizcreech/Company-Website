@@ -49,13 +49,15 @@ body {
 .divider {
   background-image: url(../img/raw/fire-gif.gif);
   background-repeat: repeat-x;
+  background-color:#A02A06;
   width: 100%;
   padding: 100px;
 }
 
 .divider2 {
-  background-color: #444439;
-  padding:30px;
+  background-image: url(../img/raw/bg1/Slide1.jpg);
+  background-size: cover;
+  padding:40px;
   width: 100%;
 }
 
