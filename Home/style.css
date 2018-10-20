@@ -1,0 +1,117 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	font-size: 16px;
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	line-height: 1.8em;
+	color: #666;
+}
+a:link {
+	color: #D93048;
+}
+a.btn {
+	color: white;
+}
+.scale-up-center {
+	-webkit-animation: scale-up-center 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: scale-up-center 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+.pimg1, .pimg2, .pimg3 {
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*
+      fixed = parallax
+      scroll = normal
+    */
+	background-attachment: fixed;
+}
+.pimg1 {
+	background-image: url('../img/castle.jpg');
+	min-height: 100%;
+}
+.pimg2 {
+	background-image: url('../img/GOTDragon.jpg');
+	min-height: 400px;
+}
+.pimg3 {
+	background-image: url('../img/lastdragonimage.png');
+	min-height: 400px;
+}
+.section {
+	text-align: center;
+	padding: 50px 80px;
+}
+.footer {
+	text-align: center;
+	padding: 50px 80px;
+}
+.section-light {
+	background-color: #f4f4f4;
+	color: #666;
+}
+.section-dark {
+	background-color: #282e34;
+	color: #ddd;
+}
+.pimg1 .ptext {
+	position: absolute;
+	top: 30%;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-size: 50px;
+	font-weight: bold;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+.pimg3 .ptext {
+	position: absolute;
+	top: 50%;
+	padding-left: 25%;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+.pimg2 .ptext {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+.ptext img {
+	position: absolute;
+	top: 10%;
+}
+
+@-webkit-keyframes scale-up-center {
+	0% {
+		-webkit-transform: scale(0.5);
+		transform: scale(0.5);
+	}
+	100% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+}
+@keyframes scale-up-center {
+	0% {
+		-webkit-transform: scale(0.5);
+		transform: scale(0.5);
+	}
+	100% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+}
